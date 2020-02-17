@@ -1,15 +1,6 @@
 import React from 'react';
-import Layout from 'src/components/Layout';
-import SEO from 'src/components/SEO';
+import NotFoundPage from 'src/screens/404';
 
-const NotFoundPage = () => (
-  <Layout>
-    <SEO title="404: Página não encontrada" />
-    <h1>Página não encontrada</h1>
-    <p>
-      Iremos fazer nosso desenvolvedor trabalhar nisso...ele tá meio preguiçoso!
-    </p>
-  </Layout>
-);
+const ErrorPage = () => <NotFoundPage />;
 
-export default NotFoundPage;
+export default ErrorPage;

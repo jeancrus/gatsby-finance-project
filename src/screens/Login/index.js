@@ -5,7 +5,6 @@ import { store } from 'src/store';
 import LoginImage from 'src/Image/loginImage';
 import { useForm } from 'react-hook-form';
 import LogoImage from 'src/Image/logoImage';
-import { Grid } from '@material-ui/core';
 import { Container, Main } from './styles';
 
 export default () => {
