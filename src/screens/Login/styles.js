@@ -83,10 +83,7 @@ export const Main = styled.main`
     }
     .logo-img {
       width: 100%;
-      height: 100%;
-      max-width: 100px;
-      max-height: 100px;
-      text-align: center;
+      max-width: 200px;
       margin-bottom: 1.2rem;
     }
   }
