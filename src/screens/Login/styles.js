@@ -3,12 +3,11 @@ import styled from 'styled-components';
 export const Container = styled.main`
   display: flex;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   background: #ebe9e9;
   .login-img {
     width: 100%;
     max-width: 600px;
-    height: 100%;
     .gatsby-image-wrapper {
       height: 100vh;
     }
@@ -25,8 +24,10 @@ export const Main = styled.main`
   .login-container {
     width: 100%;
     display: flex;
+    height: 90%;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
     margin-bottom: 1.2rem;
     form {
       width: 100%;
@@ -95,6 +96,17 @@ export const Main = styled.main`
     a {
       margin-top: 0.6rem;
       color: #fb4500;
+    }
+  }
+
+  .logo-vevo {
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+
+    a {
+      color: #001242;
+      font-size: 0.8rem;
     }
   }
 `;
